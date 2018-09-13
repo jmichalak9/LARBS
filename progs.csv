@@ -65,3 +65,38 @@ A,vim-pathogen,manages vim plugins
 ,highlight,can highlight code output
 G,https://github.com/alexanderjeurissen/ranger_devicons.git,gives folder and file icons in ranger
 A,task-spooler,queues commands or files for download
+A,dtrx,archive extraction for brainlets
+A,farbfeld,suckless img format
+A,funny-manpages, 
+A,i3lock-color,lock program
+A,ida-free,free disassembler
+A,megacmd-bin,mega cloud tool
+A,otf-font-awesome-4
+A,rxvt-unicode-pixbuf
+A,screenkey,shows pressed keys on screen
+A,tor-browser,web browser for paranoids
+A,ttf-iosevka,monospace font
+,ipython
+,weechat,irc client
+,rsync,backup utility 
+,lolcat
+,ttf-dejavu
+,stow
+,fd
+,ufw
+,jdk10-openjdk
+,syncthing
+,gimp
+,keepassxc,password manager
+,imagemagick,basic image editing
+,fasd
+,hub
+,gnupg
+,hugo,static site generator
+,bat,better cat
+,tldr,shorter version of manpages
+,openssl
+,calibre,ebook management
+,gdb,gnu debugger
+,dosbox
+
