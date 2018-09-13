@@ -71,32 +71,31 @@ A,funny-manpages,
 A,i3lock-color,lock program
 A,ida-free,free disassembler
 A,megacmd-bin,mega cloud tool
-A,otf-font-awesome-4
-A,rxvt-unicode-pixbuf
+A,otf-font-awesome-4,
+A,rxvt-unicode-pixbuf,
 A,screenkey,shows pressed keys on screen
 A,tor-browser,web browser for paranoids
 A,ttf-iosevka,monospace font
-,ipython
+,ipython,
 ,weechat,irc client
 ,rsync,backup utility 
-,lolcat
-,ttf-dejavu
-,stow
-,fd
-,ufw
-,jdk10-openjdk
-,syncthing
-,gimp
+,lolcat,
+,ttf-dejavu,
+,stow, manage dotfiles symlinks
+,fd, better find
+,ufw, firewall
+,jdk10-openjdk, java
+,syncthing, decentralised sync
+,gimp,
 ,keepassxc,password manager
 ,imagemagick,basic image editing
-,fasd
-,hub
-,gnupg
+,fasd,
+,hub,
+,gnupg,
 ,hugo,static site generator
 ,bat,better cat
 ,tldr,shorter version of manpages
-,openssl
+,openssl,
 ,calibre,ebook management
 ,gdb,gnu debugger
-,dosbox
-
+,dosbox, dos emulator
