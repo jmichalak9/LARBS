@@ -72,6 +72,9 @@ A,i3lock-color,lock program
 A,ida-free,free disassembler
 A,megacmd-bin,mega cloud tool
 A,otf-font-awesome-4,
+,ttf-freefont,
+,ttf-baekmuk,
+,ttf-arphic-uming,
 A,rxvt-unicode-pixbuf,
 A,screenkey,shows pressed keys on screen
 A,tor-browser,web browser for paranoids
@@ -99,3 +102,5 @@ A,ttf-iosevka,monospace font
 ,calibre,ebook management
 ,gdb,gnu debugger
 ,dosbox, dos emulator
+,transmission-gtk,torrent client
+,acpi,battery monitor
