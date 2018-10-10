@@ -88,8 +88,8 @@ A,ttf-iosevka,monospace font
 ,fd, better find
 ,ufw, firewall
 ,jdk10-openjdk, java
-,syncthing, decentralised sync
-,gimp,
+,syncthing,decentralised sync
+,gimp,image editing
 ,keepassxc,password manager
 ,imagemagick,basic image editing
 ,fasd,
@@ -99,8 +99,20 @@ A,ttf-iosevka,monospace font
 ,bat,better cat
 ,tldr,shorter version of manpages
 ,openssl,
-,calibre,ebook management
+,calibre,ebook manager
 ,gdb,gnu debugger
-,dosbox, dos emulator
+,dosbox,dos emulator
 ,transmission-gtk,torrent client
 ,acpi,battery monitor
+,libreoffice-still,office suite
+,vagrant,virtual software development environment manager
+,binwalk,CTF tool to find headers in file
+,wireshark-gtk,network protocol analyzer
+A,burpsuite,webapp security tester
+
+,metasploit,pentesting framework
+,gcc-multilib,
+,lib32-glibc,
+,pip,
+,asciinema,terminal recorder
+,pandoc,document converter
