@@ -1,4 +1,5 @@
 TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
+
 ,base-devel,is a group package with sudo and compilation software
 ,git,is a version control system
 ,i3-gaps,is the main graphical user interface and window manager
@@ -65,40 +66,40 @@ A,vim-pathogen,manages vim plugins
 ,highlight,can highlight code output
 G,https://github.com/alexanderjeurissen/ranger_devicons.git,gives folder and file icons in ranger
 A,task-spooler,queues commands or files for download
-A,dtrx,archive extraction for brainlets
+A,dtrx,archive extraction tool for brainlets
 A,farbfeld,suckless img format
-A,funny-manpages, 
-A,i3lock-color,lock program
+A,funny-manpages,set of funny manpages
+A,i3lock-color,screenlocker
 A,ida-free,free disassembler
 A,megacmd-bin,mega cloud tool
-A,otf-font-awesome-4,
-,ttf-freefont,
-,ttf-baekmuk,
-,ttf-arphic-uming,
-A,rxvt-unicode-pixbuf,
-A,screenkey,shows pressed keys on screen
+A,otf-font-awesome-4,font awesome
+,ttf-freefont,font
+,ttf-baekmuk,font
+,ttf-arphic-uming,font
+A,rxvt-unicode-pixbuf,terminal emulator
+A,screenkey,tool to show pressed keys
 A,tor-browser,web browser for paranoids
 A,ttf-iosevka,monospace font
-,ipython,
+,ipython,interactive python shell
 ,weechat,irc client
-,rsync,backup utility 
-,lolcat,
-,ttf-dejavu,
-,stow, manage dotfiles symlinks
-,fd, better find
-,ufw, firewall
-,jdk10-openjdk, java
+,rsync,file transfer program to keep remote files in sync
+,lolcat,funny tool
+,ttf-dejavu,font
+,stow,tool to manage dotfiles symlinks
+,fd,better find
+,ufw,firewall
+,jdk10-openjdk,java development kit
 ,syncthing,decentralised sync
-,gimp,image editing
+,gimp,image editor
 ,keepassxc,password manager
-,imagemagick,basic image editing
-,fasd,
-,hub,
-,gnupg,
+,imagemagick,basic image editor
+,fasd,cli productivity booster
+,hub,cli interface for github
+,gnupg,implementation of openpgp
 ,hugo,static site generator
 ,bat,better cat
-,tldr,shorter version of manpages
-,openssl,
+,tldr,man for lazy people
+,openssl,ssl and tls toolkit
 ,calibre,ebook manager
 ,gdb,gnu debugger
 ,dosbox,dos emulator
@@ -109,10 +110,13 @@ A,ttf-iosevka,monospace font
 ,binwalk,CTF tool to find headers in file
 ,wireshark-gtk,network protocol analyzer
 A,burpsuite,webapp security tester
-
 ,metasploit,pentesting framework
 ,gcc-multilib,
-,lib32-glibc,
-,pip,
+,lib32-glibc,gnu c library
+,pip, python packages installer
 ,asciinema,terminal recorder
 ,pandoc,document converter
+A,noteshrink,image to PDF note converter
+,texlive-most,tex package
+,nasm,assembly
+,valgrind,tool to help find memory-management problems in programs
