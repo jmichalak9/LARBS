@@ -220,6 +220,6 @@ sed -i "s/#Color^/Color/g" /etc/pacman.conf
 # Configure rust environment
 exists rustup && rustup install stable && rustup default stable
 
-# Last message! Install complete!
+# Last message! Install complete! Autism+10!
 finalize
 clear
