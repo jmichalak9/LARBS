@@ -151,6 +151,10 @@ finalize(){ \
 	dialog --title "All done!" --msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment.\\n\\n-Luke" 12 80
 	}
 
+exists(){ # Check if a command exists
+    command -v "$1" &> /dev/null
+}
+
 ###
 ### THE ACTUAL SCRIPT ###
 ###
@@ -212,6 +216,9 @@ newperms "%wheel ALL=(ALL) ALL\\n%wheel ALL=(ALL) NOPASSWD: /usr/bin/shutdown,/u
 
 # Make pacman and yay colorful because why not.
 sed -i "s/#Color^/Color/g" /etc/pacman.conf
+
+# Configure rust environment
+exists rustup && rustup install stable && rustup default stable
 
 # Last message! Install complete!
 finalize
